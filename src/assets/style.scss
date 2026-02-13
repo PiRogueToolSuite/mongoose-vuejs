@@ -1,0 +1,53 @@
+@import "/node_modules/flag-icons/css/flag-icons.min.css";
+@layer primevue, network-events-analyzer;
+
+@layer network-events-analyzer {
+  .no-border {
+    border: none !important;
+  }
+  .kv-list::before {
+    content: "[";
+  }
+  .kv-list::after {
+    content: "]";
+  }
+  .kv-key {
+    font-weight: bold;
+  }
+}
+
+/*
+:root {
+    --har-a-body-bg: var(--p-surface-50);
+    --har-a-body-text-color: var(--p-surface-900);
+    --har-a-card-border: 1px solid var(--har-a-border-color);
+    --har-a-card-bg: var(--p-surface-0);
+    --har-a-border-color: var(--p-surface-200);
+    --har-a-text-color: var(--p-surface-700);
+    --har-a-overlay-background: #ffffff;
+}
+
+:root[class='p-dark'] {
+    --har-a-body-bg: var(--p-surface-950);
+    --har-a-body-text-color: var(--p-surface-50);
+    --har-a-card-border: 1px solid transparent;
+    --har-a-card-bg: var(--p-surface-900);
+    --har-a-border-color: rgba(255, 255, 255, 0.1);
+    --har-a-text-color: var(--p-surface-0);
+    --har-a-overlay-background: var(--p-surface-900);
+}
+
+.card {
+    background: var(--har-a-card-bg);
+    border: var(--har-a-card-border);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.p-component .p-listbox{
+    border: none;
+    background: transparent;
+    background-image: none;
+}
+*/

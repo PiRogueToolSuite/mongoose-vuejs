@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="asset-source.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="12.54385"
+     inkscape:cx="146.40641"
+     inkscape:cy="54.448994"
+     inkscape:window-width="1728"
+     inkscape:window-height="1381"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.95;fill:#96d35f;fill-opacity:1;stroke-width:0.138286;stroke-opacity:0.960784"
+       id="rect1"
+       width="2.3812499"
+       height="2.3812499"
+       x="35.982861"
+       y="2.437242"
+       ry="0.43318069"
+       inkscape:export-filename="risk-0.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.95;fill:#f5a524;fill-opacity:1;stroke-width:0.138287;stroke-opacity:0.960784"
+       id="rect1-3"
+       width="2.3812499"
+       height="2.3812499"
+       x="39.071529"
+       y="2.437242"
+       ry="0.43318069"
+       inkscape:export-filename="risk-1.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.95;fill:#f0383b;fill-opacity:1;stroke-width:0.138287;stroke-opacity:0.960784"
+       id="rect1-3-5"
+       width="2.3812499"
+       height="2.3812499"
+       x="42.160194"
+       y="2.437242"
+       ry="0.43318069"
+       inkscape:export-filename="risk-2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.95;fill:#dddddd;fill-opacity:1;stroke-width:0.138287;stroke-opacity:0.960784"
+       id="rect1-3-5-4"
+       width="2.3812499"
+       height="2.3812499"
+       x="45.248863"
+       y="2.437242"
+       ry="0.43318069"
+       inkscape:export-filename="risk-blank.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g2"
+       transform="matrix(1.387474,0,0,1.3248776,-15.147902,-3.2904304)"
+       inkscape:export-filename="down.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="stroke-width:0.343264;stroke-dasharray:none;stroke:#999999">
+      <g
+         id="g3"
+         style="stroke-width:0.343264;stroke-dasharray:none;stroke:#999999">
+        <path
+           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.343264;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 38.218418,8.9930134 0.777534,1.0069669 0.807051,-1.0018489"
+           id="path1"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.343264;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 38.218418,8.0802511 0.777534,1.0069667 0.807051,-1.0018487"
+           id="path1-9"
+           sodipodi:nodetypes="ccc" />
+      </g>
+    </g>
+    <g
+       id="g2-2"
+       transform="matrix(-1.387474,0,0,-1.3248776,97.797099,23.001127)"
+       inkscape:export-filename="up.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="stroke-width:0.343264;stroke-dasharray:none;stroke:#999999">
+      <g
+         id="g3-2"
+         style="stroke-width:0.343264;stroke-dasharray:none;stroke:#999999">
+        <path
+           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.343264;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 38.218418,8.9930134 0.777534,1.0069669 0.807051,-1.0018489"
+           id="path1-7"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="opacity:0.95;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.343264;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 38.218418,8.0802511 0.777534,1.0069667 0.807051,-1.0018487"
+           id="path1-9-1"
+           sodipodi:nodetypes="ccc" />
+      </g>
+    </g>
+  </g>
+</svg>

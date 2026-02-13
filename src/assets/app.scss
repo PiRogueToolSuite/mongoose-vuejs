@@ -1,0 +1,32 @@
+@import './style.scss' layer(network-events-analyzer-style);
+@layer network-events-analyzer-style, standalone-app-network-events-analyzer;
+
+@layer standalone-app-network-events-analyzer {
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+
+    body {
+        font-weight: normal;
+        padding: 1em;
+        overflow: hidden;
+        background-color: var(--body-bg);
+        color: var(--body-text-color);
+        outline: orange dashed 1px;
+        box-sizing: border-box;
+    }
+
+    #app {
+        height: 100%;
+        box-sizing: border-box;
+
+        .network-events-analyzer {
+            max-height: calc(100% - 3rem);
+            font-size: 0.9em;
+        }
+    }
+}
