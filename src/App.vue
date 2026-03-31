@@ -1,5 +1,5 @@
 <template>
-  <NetworkEventsAnalyzer :flows="flows" :alerts="alerts"></NetworkEventsAnalyzer>
+  <NetworkEventsAnalyzer :dataFlows="flows" :dataAlerts="alerts" tableMaxHeight="900px"></NetworkEventsAnalyzer>
 </template>
 
 <script setup>

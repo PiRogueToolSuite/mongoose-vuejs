@@ -18,29 +18,38 @@ import FlowDetails from "@/components/flow/FlowDetails.vue";
 </script>
 
 <script>
-const loadDataSource = async (url) => {
-  const response = await fetch(url);
-  const json = await response.json();
-  return json.log.flows;
+const loadDataSource = async (url, csrfToken) => {
+  let config = {};
+  if (csrfToken !== undefined) {
+    config.headers = {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+      'X-CSRFToken': csrfToken,
+    }
+  }
+  const response = await fetch(url, config);
+  return await response.json();
 };
 
 export default {
-  props: ['dataSrc', 'flows', 'alerts'],
+  props: ['dataSrc', 'dataCSRFToken', 'dataFlows', 'dataAlerts', 'tableMaxHeight'],
   expose: ['setEntries'],
   data() {
     return {
       selectedFlow: null,
       drawerVisible: false,
       loading: true,
-      // flows: [],
+      flows: this.dataFlows,
+      alerts: this.dataAlerts,
     }
   },
   mounted() {
     if (this.dataSrc) {
       const url = this.dataSrc;
-      loadDataSource(url).then(this.setEntries);
+      loadDataSource(url, this.dataCSRFToken).then(this.setEntries);
     }
     this.loading = false;
+    console.log('NetworkEventsAnalyzer mounted');
   },
   methods: {
     onFlowSelect(event) {
@@ -51,9 +60,20 @@ export default {
       this.selectedFlow = null;
       this.drawerVisible = false;
     },
-    setEntries(flowsArray) {
-      this.selectedEntry = null;
-      this.flows.splice(0, this.flows.length, ...flowsArray);
+    setEntries(flowsNAlerts) {
+      this.selectedFlow = null;
+      if (this.flows) {
+        this.flows.splice(0, this.flows.length, ...flowsNAlerts.dpi);
+      }
+      else {
+        this.flows = flowsNAlerts.dpi;
+      }
+      if (this.alerts) {
+        this.alerts.splice(0, this.alerts.length, ...flowsNAlerts.alerts);
+      }
+      else {
+        this.alerts = flowsNAlerts.alerts;
+      }
     },
     getAlerts(flow) {
       return this.alerts.filter(
@@ -152,7 +172,7 @@ export default {
       resizableColumns
       columnResizeMode="expand"
       tableStyle="min-width: 50rem"
-      scrollHeight="900px">
+      :scrollHeight="tableMaxHeight">
       <Column field="time" sortable header="Time" class="">
         <template #body="{ data }">
           <span class="text-primary">{{ $formatDate(data.time) }}</span>
